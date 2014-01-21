@@ -1,12 +1,12 @@
-# GitMergePr
+# git-merge-pr
 
-TODO: Write a gem description
+Merge a pull request for the current directory's project on GitHub.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'git_merge_pr'
+    gem 'git-merge-pr'
 
 And then execute:
 
@@ -14,11 +14,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install git_merge_pr
+    $ gem install git-merge-pr
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Navigate to your local clone of the project
+2. Run `git merge-pr PR_NUM`. Do not include the `#`.
 
 ## Contributing
 
