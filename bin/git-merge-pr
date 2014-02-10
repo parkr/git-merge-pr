@@ -13,6 +13,7 @@
 #
 
 require 'octokit'
+require 'netrc'
 require 'rugged'
 
 abort "Provide a PR number (no '#' tho)" if ARGV.empty?
