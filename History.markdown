@@ -1,3 +1,7 @@
+## HEAD
+
+* Delete the merged branch if it's on the repo (#2)
+
 ## 0.1.0 / 2014-02-10
 
 * Fixed netrc support (#1)
