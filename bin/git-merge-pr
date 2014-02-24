@@ -43,6 +43,6 @@ unless client.pull_merged?(repo, pr_num)
   end
 else
   puts "Pull request #{repo}##{pr_num} has already been merged."
-  puts "Continue anyway? (y/n)"
+  print "Continue anyway? (y/n) "
   abort unless STDIN.gets.chomp == "y"
 end
