@@ -1,5 +1,7 @@
 ## HEAD
 
+* DON'T DELETE THE MASTER BRANCH, LIKE EVER (#4)
+
 ## 0.2.0 / 2014-02-24
 
 * Delete the merged branch if it's on the repo (#2)
