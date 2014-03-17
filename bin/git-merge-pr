@@ -37,7 +37,9 @@ unless client.pull_merged?(repo, pr_num)
   merged_branch = client.pull_request(repo, pr_num).head.ref
   begin
     if client.ref(repo, "heads/#{merged_branch}")
-      client.delete_branch(repo, merged_branch)
+      unless %w[master gh-pages].include?(merged_branch)
+        client.delete_branch(repo, merged_branch)
+      end
     end
   rescue Octokit::NotFound
   end
