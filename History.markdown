@@ -1,5 +1,7 @@
 ## HEAD
 
+* Fetch the origin remote or whatever remote is in `$REMOTE_NAME` (#5)
+
 ## 0.3.0 / 2014-03-17
 
 * DON'T DELETE THE MASTER BRANCH, LIKE EVER (#4)
