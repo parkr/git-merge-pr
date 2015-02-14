@@ -1,3 +1,7 @@
+## HEAD
+
+* Upgrade rugged, netrc, and octokit versions (#6)
+
 ## 0.4.0 / 2014-11-12
 
 * Fetch the origin remote or whatever remote is in `$REMOTE_NAME` (#5)
