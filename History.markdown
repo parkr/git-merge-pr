@@ -1,4 +1,4 @@
-## HEAD
+## 0.5.0 / 2015-02-13
 
 * Upgrade rugged, netrc, and octokit versions (#6)
 
