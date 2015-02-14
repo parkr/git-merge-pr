@@ -17,9 +17,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "octokit", "~> 2.7"
-  spec.add_runtime_dependency "rugged", "~> 0.19.0"
-  spec.add_runtime_dependency "netrc", "~> 0.7.7"
+  spec.add_runtime_dependency "octokit", "~> 3.7"
+  spec.add_runtime_dependency "rugged", "~> 0.21.0"
+  spec.add_runtime_dependency "netrc", "~> 0.10.0"
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
